@@ -6,6 +6,8 @@ It combines data engineering, machine learning, forecasting, evaluation, and dec
 
 This project demonstrates end-to-end ML system design, from raw data ingestion to actionable inventory insights.
 
+
+
 📌 Business Problem Statement
 
 Retail organizations often face:
@@ -24,6 +26,8 @@ Forecasting future demand accurately
 
 Translating forecasts into inventory planning recommendations
 
+
+
 🎯 Project Objectives
 
 Build a robust demand forecasting pipeline
@@ -36,16 +40,20 @@ Provide quantitative evaluation metrics
 
 Support future scalability and model extensibility
 
+
 🏛️ System Architecture Overview
 User (CSV Upload)
         │
         ▼
+
 Streamlit Dashboard
         │
         ▼
+
 Application Layer (app/)
         │
         ▼
+
 ML Pipeline (src/)
  ├── Preprocessing
  ├── Model Training / Loading
@@ -54,7 +62,10 @@ ML Pipeline (src/)
  └── Inventory Optimization
         │
         ▼
+
 Reports & Visualizations
+
+
 
 🗂️ Detailed Folder Structure
 app/ – Application Layer
@@ -124,6 +135,8 @@ config/
 
 Centralized YAML-based configuration
 
+
+
 📊 Data Flow Pipeline
 
 Raw Data Ingestion
@@ -140,6 +153,8 @@ Inventory Planning
 
 Reporting & Visualization
 
+
+
 📁 Dataset Description
 Expected Input Schema
 Column	Description
@@ -153,6 +168,8 @@ TotalSales	Quantity × UnitPrice
 Region	Sales region
 
 📄 Example file: sample_sales_data.csv
+
+
 
 📈 Machine Learning Details
 Model Used
@@ -168,6 +185,8 @@ Performs well on tabular data
 Robust to missing values
 
 Industry-proven algorithm
+
+
 
 📏 Evaluation Metrics
 Metric	Purpose
@@ -193,12 +212,16 @@ Saved under:
 
 reports/visualizations/
 
+
+
 🖥️ Running the Application
 Full Pipeline
 python run.py
 
 Streamlit Dashboard
 streamlit run dashboard/streamlit_app.py
+
+
 
 🔐 Configuration Management
 
@@ -270,12 +293,15 @@ Role-based dashboard access
 
 CI/CD pipeline
 
+
 👩‍💼 Author
 
 Pranoti Munjankar
 Data Science & Machine Learning Enthusiast
 
 🔗 GitHub: https://github.com/pranoti711
+
+
 
 🌟 Final Note
 
