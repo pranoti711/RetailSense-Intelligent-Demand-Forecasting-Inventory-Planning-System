@@ -1,0 +1,11 @@
+OrderID,OrderDate,CustomerName,Region,Product,Category,Quantity,UnitPrice,TotalSales,PaymentMode
+1001,2026-01-01,John Doe,North,Widget A,Electronics,5,20,100,Credit Card
+1002,2026-01-02,Jane Smith,South,Widget B,Home,2,15,30,Cash
+1003,2026-01-03,Bob Johnson,East,Widget C,Electronics,1,50,50,Debit Card
+1004,2026-01-04,Alice Lee,West,Widget A,Electronics,3,20,60,Credit Card
+1005,2026-01-05,Charlie Kim,North,Widget B,Home,4,15,60,Cash
+1006,2026-01-06,Emily Davis,South,Widget C,Electronics,2,50,100,Debit Card
+1007,2026-01-07,Frank Brown,East,Widget A,Electronics,1,20,20,Credit Card
+1008,2026-01-08,Grace Liu,West,Widget B,Home,5,15,75,Cash
+1009,2026-01-09,Hank Green,North,Widget C,Electronics,3,50,150,Debit Card
+1010,2026-01-10,Ivy White,South,Widget A,Electronics,2,20,40,Credit Card
